@@ -1,0 +1,79 @@
+.header {
+    background-image: url(fata.jpg);
+    overflow: hidden;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    background-color: #fae8c8;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px #000000;
+    font-size: 45px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.card3 {
+  background-color: #a2006d;
+ padding:20px;
+ margin-bottom:10px;
+ text-align:center;
+}
+
+.T
+{
+	font-size:30px; 
+	color:black; 
+	text-shadow: 12px 9px 9px rgba(16,16,16,0.55);
+	font-family: 'Lobster', cursive;
+	text-align:center;
+	
+}
+
+.doubleline
+{
+    border-top: 3px double black;
+    border-bottom: 3px double black;
+}
+
+.description2 {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 15px; 
+  text-align: left;
+  
+}
+.description {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.thick {
+  font-weight: bold;
+}
+
+.subtitlu {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 8px;
+	text-align: left;	
+    text-decoration: underline;
+    text-decoration-color: #a2006d;
+}
+
+
+.cerc {
+  height: 10px;
+  width: 10px;
+  background-color: #a2006d;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+ .resized-image {
+  height: 265px; 
+  width: auto;
+  border: 2px solid black;
+  border-radius: 10px;
+}

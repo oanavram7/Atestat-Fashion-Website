@@ -1,0 +1,54 @@
+
+
+.container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+ .T2
+{
+	font-size:30px; 
+	color:black; 
+	text-shadow: 12px 9px 9px rgba(16,16,16,0.55);
+	font-family: 'Lobster', cursive;
+	text-align:center;
+	padding: 10px;
+	background-color:#fbcccc
+ 
+	
+}
+
+
+
+.comment-area {
+            width: 300px;
+            height: 200px;
+            resize: vertical;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 10px;
+			
+        }
+
+        .submit-btn {
+            padding: 10px 20px;
+            background-color: #a2006d; 
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+			margin-left:110px;
+        }
+
+        .submit-btn:hover {
+            background-color: #620142;
+        }

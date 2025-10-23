@@ -1,0 +1,138 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:rgba(255, 242, 243, 0.78);
+}
+
+.hero-image {
+  height: 45%;
+  background-image:url("b.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+.caca
+{
+	font-size:120px; 
+	color:black; 
+	text-shadow: 12px 9px 9px rgba(16,16,16,0.55);
+	font-family: 'Lobster', cursive;
+	margin-left:20px;
+}
+.titlu
+{
+	font-size:50px; 
+	color:black; 
+	text-shadow: 12px 9px 9px rgba(16,16,16,0.55);
+	font-family: 'Lobster', cursive;
+	margin-left:25px;
+}
+.run {
+	font-size:30px; 
+	color:#a2006d; 
+	text-shadow: 12px 9px 9px rgba(16,16,16,0.55);
+	font-family: "Georgia", cursive;
+	margin-top: -15px;
+	margin-left: 50px;
+}
+.hero-text {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #a2006d;
+  text-align:center;
+}
+
+
+li {
+  display: inline-block;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: silver;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.item2 { 
+	grid-area: menu;
+	background-image: url( "tall.jpg"); 
+ }
+.item3 { 
+	grid-area: main;
+	background-image: url( "3.jpg"); 
+
+}
+.item4 { 
+	grid-area: right; 	
+	background-image: url( "2.jpg"); 
+}
+.item5 { 
+	grid-area: footer;
+	background-image: url( "4.jpg"); 
+ }
+
+.grid-container {
+  display: grid;
+  width: 52%;
+  height: 93%;
+  margin-left: 650px;
+  grid-template-areas:
+    'menu menu main main main right right'
+    'menu menu footer footer footer footer footer';
+  gap: 10px;
+  padding: 10px;
+}
+
+.grid-container > div {
+	padding: 20px 0;
+	background-size: cover;
+	background-position: center;
+	border: 3px solid black;
+}
